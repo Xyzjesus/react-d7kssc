@@ -6,7 +6,6 @@ export default function App() {
   const [apiData, setApiData] = React.useState([]);
 
   const handleInputResponse = (data) => {
-    // Save the data from the input component's response in state
     setApiData(data);
   };
 
